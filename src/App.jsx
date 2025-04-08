@@ -107,7 +107,7 @@ function App() {
   const gerarPedido = () => {
 
     const total = calcularTotal();
-    const telefone = "5519981755678";
+    const telefone = "5519996099398";
 
     const itensMsg = bag.map((item, index) => {
       const linhas = Object.entries(item.selecoes).map(([chave, valor]) => {
